@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "country_name": "India",
+      "capital": "New Delhi",
+      "region": "Asia",
+      "interesting_fact": "India is the largest democracy in the world and the second-most populous country."
+    },
+    {
+      "id": 2,
+      "country_name": "United States",
+      "capital": "Washington, D.C.",
+      "region": "North America",
+      "interesting_fact": "The United States has the largest economy in the world."
+    },
+    {
+      "id": 3,
+      "country_name": "China",
+      "capital": "Beijing",
+      "region": "Asia",
+      "interesting_fact": "China is the world's most populous country and the origin of the Great Wall."
+    },
+    {
+      "id": 4,
+      "country_name": "Japan",
+      "capital": "Tokyo",
+      "region": "Asia",
+      "interesting_fact": "Tokyo is the most populous metropolitan area in the world."
+    },
+    {
+      "id": 5,
+      "country_name": "Germany",
+      "capital": "Berlin",
+      "region": "Europe",
+      "interesting_fact": "Germany is known for its engineering and automotive industry."
+    },
+    {
+      "id": 6,
+      "country_name": "Brazil",
+      "capital": "Brasília",
+      "region": "South America",
+      "interesting_fact": "Brazil is home to the Amazon rainforest, the world's largest tropical rainforest."
+    },
+    {
+      "id": 7,
+      "country_name": "Australia",
+      "capital": "Canberra",
+      "region": "Oceania",
+      "interesting_fact": "Australia is the only country that is also a continent."
+    },
+    {
+      "id": 8,
+      "country_name": "South Africa",
+      "capital": "Pretoria (administrative), Bloemfontein (judicial), Cape Town (legislative)",
+      "region": "Africa",
+      "interesting_fact": "South Africa has three capital cities and is known as the 'Rainbow Nation'."
+    },
+    {
+      "id": 9,
+      "country_name": "Canada",
+      "capital": "Ottawa",
+      "region": "North America",
+      "interesting_fact": "Canada is the second-largest country in the world by land area."
+    }
+  ]
+  

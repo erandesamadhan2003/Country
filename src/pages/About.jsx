@@ -1,7 +1,9 @@
+import { CountryCard } from "../components/Layout/CountryCard";
+
 export const About = () => {
     return (
-        <>
-            <h1>About Page</h1>
-        </>
+        <div className="card-section">
+            <CountryCard />
+        </div>
     );
 }
