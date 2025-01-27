@@ -554,3 +554,71 @@ span {
   background-color: #e0e0e0;
   color: #0c0a0e;
 }
+
+
+.search-filter {
+  justify-content: space-between;
+  margin-bottom: 5rem;
+  padding: 0 5rem;
+}
+
+.search-input {
+  padding: 1rem 2rem;
+  font-size: 1.8rem;
+  border: 1px solid aliceblue;
+  background-color: #222222;
+  border-radius: 5rem;
+  -webkit-border-radius: 5rem;
+  -moz-border-radius: 5rem;
+  -ms-border-radius: 5rem;
+  -o-border-radius: 5rem;
+}
+
+.search-input:focus {
+  background-color: #ffffff;
+}
+
+.select-section {
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  border: 1px solid aliceblue;
+  background-color: #222222;
+  color: #e0e0e0;
+  appearance: none; 
+  -webkit-appearance: none; 
+  -moz-appearance: none; 
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.select-section:focus {
+  outline: none;
+  background-color: #ffffff;
+  color: #222222;
+  border-color: aliceblue; 
+}
+
+.select-section:hover {
+  background-color: #333333;
+  color: #ffffff;
+  border-color: aliceblue; 
+}
+
+.select-section::after {
+  content: "▼";
+  position: absolute;
+  right: 2rem;
+  font-size: 1.2rem;
+  color: #e0e0e0;
+  pointer-events: none;
+}
+
+.select-section-container {
+  position: relative; 
+}
+
+.select-section option {
+  background-color: #222222;
+  color: #e0e0e0;
+  font-size: 1.6rem;
+}
