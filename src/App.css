@@ -622,3 +622,154 @@ span {
   color: #e0e0e0;
   font-size: 1.6rem;
 }
+
+/* ! ============================================= */
+/* ! =============== Media Queries ============== */
+/* ! ============================================= */
+
+@media screen and (max-width: 1200px) {
+  .grid-four-cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .hero-section-text h1 {
+    font-size: 5em;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .grid-four-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-three-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero-section {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 8rem 2rem;
+  }
+
+  .hero-section-text {
+    align-items: center;
+  }
+
+  .hero-section-image img {
+    max-width: 80%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .country-details-card .country-image {
+    grid-template-columns: 1fr;
+  }
+
+  .country-details-card .flag {
+    padding-right: 0;
+    margin: 2rem auto;
+  }
+
+  .search-filter {
+    padding: 0 2rem;
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 56.25%; 
+  }
+
+  .nav-bar {
+    flex-direction: column;
+    height: auto;
+    padding: 2rem;
+    gap: 2rem;
+  }
+
+  .nav-link-container {
+    gap: 3rem;
+  }
+
+  .upper-footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-component {
+    justify-content: center;
+  }
+
+  .personal-info {
+    align-items: center;
+  }
+
+  .lower-footer {
+    text-align: center;
+  }
+
+  .form-section {
+    margin: 0 2rem;
+  }
+
+  .search-filter {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-input,
+  .select-section {
+    width: 100%;
+    max-width: 30rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 50%; 
+  }
+
+  .grid-four-cols,
+  .grid-three-cols,
+  .grid-two-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .nav-link-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .country-section {
+    padding: 2rem;
+  }
+
+  .card-layout {
+    gap: 2rem;
+  }
+
+  .container-card {
+    padding: 2rem;
+  }
+
+  .hero-section-text h1 {
+    font-size: 4em;
+  }
+
+  .hero-section-btn {
+    width: 100%;
+    max-width: 25rem;
+  }
+
+  .form-section {
+    margin: 0 1rem;
+  }
+}
+
+.search-input:focus {
+  background-color: #ffffff;
+  color: #000000;
+}
+
